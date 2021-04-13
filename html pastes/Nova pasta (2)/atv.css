@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1204px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    
+}
+
+.flex{
+    /*justify-content: center; */
+   flex-wrap: wrap;
+}
+
+.um{
+    width: 1200px;
+    height: 185px;
+    background-color: gold;
+    text-align: center;
+}
+
+.dois{
+    width: 1200px;
+    height: 70px;
+    background-color:slategray ;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.tres{
+    width: 280px; 
+    height: 1000px;
+    background-color: black;
+    text-align: inherit;
+    
+}
+
+.quatro{
+    width: 920px; 
+    height: 1000px;
+    background-color: red;
+    text-align: center;
+
+}
+
+.cinco{
+    width: 1200px; 
+    height: 200px;
+    background-color: gold;
+    text-align: center;
+}

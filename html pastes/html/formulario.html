@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+   <form action="#" method="POST">
+   
+ <label for="">Nome</label>
+    <input type="text"maxlength="80" minlength="3"placeholder="Digite o nome" 
+    size="45"id="Nome" name="nome">
+   <p> 
+   </p>
+   
+ <label for="">idade</label>
+    <input type="number" id="idade" min="18" placeholder="idade">
+   <p>
+   </p>
+ <label for="">Nascimento</label>
+    <input type="date" id="nascimento" name="Nascimento" placeholder="mm/dd/yyyy">
+ <label for="horaNascimento">Hora</label>
+    <input type="time" id=horaNascimento>
+    <p>
+    </p>
+ <label for="senha">Senha</label>
+    <input type="password" id="Senha" minlenght="3" maxlenght="6" name="senha">
+    <button>mostrar senha</button>
+    <p>
+    </p>
+  <label for="Confirmar senha">Confirmar Senha</label>
+    <input type="password" id="ConfirmarSenha" minlenght="3" maxlenght="6" name="confirmarsenha">
+    <button>mostrar senha</button>
+<p>
+</p>
+  <label for="">Observação</label>
+     <textarea name="observacao" id="observacao" cols="30" rows="10" maxlength="100"></textarea>
+<p>
+</p>
+  <fieldset>
+    <legend>Sexo</legend> 
+  <input type="radio" name="sexo" id="Fem"value="F">Feminino
+  <input type="radio" name="sexo" id="Mas"value="M">Masculino
+  <input type="radio" name="sexo" id="Out"value="O">Outro
+  </fieldset>
+<p>
+</p>
+<input type="checkbox" id="" value="vt">Vale transporte
+<br>
+<input type="checkbox" name="" id="" value="vr">Vale refeição
+<br>
+<input type="checkbox" name="" id="" value="cm">Convênio médico
+<br>
+<input type="checkbox" name="" id="" value="co">Convênio odontológico
+<p>
+</p>
+<input type="submit" value="Enviar">
+<input type="reset" value="apagar">
+ 
+
+</body>
+</html>

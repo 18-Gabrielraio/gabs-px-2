@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1440px;
+    height: 1000px;
+    background-color: violet;
+    margin: 0 auto;
+}
+
+#caixa{
+    width: 600px;
+    height: 600px;
+    
+}
+
+@media screen and (max-width: 1024px){
+  #container{
+    width: 1024px;
+    background-color: tomato;
+  }
+}
+
+@media screen and (max-width: 768px){
+    #container{
+      width: 768px;
+      background-color: rgb(63, 61, 61);
+    }
+  }

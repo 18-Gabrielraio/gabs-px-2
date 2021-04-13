@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    
+}
+
+.flex{
+    /*justify-content: center; */
+    flex-flow: row wrap;
+}
+
+.um{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    
+   
+}
+
+.dois{
+    width: 200px;
+    height: 200px;
+    background-color: orange ;
+  
+}
+
+
+.tres{
+    width: 200px; 
+    height: 200px;
+    background-color: palevioletred;
+   
+    
+}
+
+.quatro{
+    width: 200px; 
+    height: 200px;
+    background-color: powderblue;
+
+}
+
+.cinco{
+    width: 200px; 
+    height: 200px;
+    background-color: salmon;
+
+}

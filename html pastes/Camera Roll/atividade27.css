@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+div#container{
+    width:1500px;
+    margin: 150px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+div#sobremim{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    margin-left: 1145px;
+    margin-bottom: 10px;
+}
+
+nav#meustrabalhos{
+    width: 120px;
+    height: 30px;
+    margin-left: 1145px;    
+    background-color: red;
+    margin-bottom: 10px;
+
+}
+
+div#contatos{
+    width: 120px;
+    height: 30px;
+    margin-left: 1145px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+div#image> div{
+    
+}

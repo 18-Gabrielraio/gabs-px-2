@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    text-align: center;
+   font-size: 50px;
+}
+
+nav{
+    width: 1500px;
+    height: 120px;
+    background-color: yellow;
+    
+}
+
+header {
+    width: 1500px;
+    height: 520px;
+    background-color: gray;
+}
+
+#container1 {
+    width: 1500px;
+    height: 950px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#container1 >article{ 
+    width: 750px;
+    height: 950px;
+}
+
+#um{
+    background-color: yellow;
+}
+
+#dois{
+    background-color: yellowgreen;
+}
+
+section{
+    width: 1500px;
+    height: 920px;
+    background-color: sandybrown;
+}
+
+#container2{
+    width: 1500px;
+    height: 375px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#container2 >div{
+    width: 375px;
+    height: 375px;
+}
+
+#tres{
+    background-color: silver;
+}
+
+#quatro{
+    background-color: grey;
+}
+
+#cinco{
+    background-color: slategrey;
+}
+
+#seis{
+    background-color: silver;
+}
+
+footer{
+    width: 1500px;
+    height: 100px;
+    background-color: thistle;
+}

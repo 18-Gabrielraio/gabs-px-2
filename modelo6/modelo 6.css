@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+#um{
+    width: 400px;
+    height: 1500px;
+    background-color: cyan;
+}
+
+#dois{
+    width: 800px;
+    height: 250px;
+    background-color: darkcyan ;
+}
+
+#tres{
+    width: 800px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+#quatro{
+    width: 800px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+#cinco{
+    width: 800px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+#div{
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#div>article{
+    width: 340px;
+    height: 285px;
+    background-color: green;
+}
